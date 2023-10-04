@@ -72,7 +72,7 @@ namespace ConsoleApp1
         }
         static void Main(string[] args)
         {
-            string cronExpression = "* * * * 2";
+            string cronExpression = "* * * * 2"; //You can change this example!
             DateTime givenDate = DateTime.Now;
 
             DateTime result = ConvertingCrontabDate(cronExpression, givenDate);
