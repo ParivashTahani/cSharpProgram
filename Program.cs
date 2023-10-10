@@ -1,18 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Reflection.Metadata;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Channels;
-using System.Threading.Tasks;
-using System.Text.RegularExpressions;
-using System.Transactions;
-using System.Diagnostics;
-using System.Diagnostics.Metrics;
-
 namespace ConsoleApp1
 {
    public class Post
@@ -23,7 +10,7 @@ namespace ConsoleApp1
         public int _upvoting { get; private set; } = 0;
         public int _downvoting { get; private set; } = 0;
 
-        public Post(string Title, string Description) //Constructor
+        public Post(string Title, string Description) 
         {
             this._title = Title;
             this._description = Description;
